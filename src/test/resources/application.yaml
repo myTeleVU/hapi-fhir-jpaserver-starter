@@ -208,6 +208,7 @@ hapi:
 #    bulk_export_enabled: true
     subscription:
       resthook_enabled: true
+      matching-strategy: database
 #      websocket_enabled: false
 #      email:
 #        from: some@test.com
