@@ -9,5 +9,6 @@ services:
       SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER}
       SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD}
       SPRING_DATASOURCE_DRIVERCLASSNAME: "org.postgresql.Driver"
+      hapi.fhir.tester.home.server_address: ${SERVER_ADDRESS}
     ports:
       - "8080:8080"
