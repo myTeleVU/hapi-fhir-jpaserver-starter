@@ -208,7 +208,6 @@ hapi:
 #    bulk_export_enabled: true
     subscription:
       resthook_enabled: true
-      matching-strategy: database
 #      websocket_enabled: false
 #      email:
 #        from: some@test.com
@@ -240,6 +239,8 @@ hapi:
 #  username: SomeUsername
 logging:
   level:
+    root: INFO
+    ca.uhn.fhir: DEBUG
     ca.uhn.fhir.jpa.subscription: DEBUG
     ca.uhn.fhir.subscription: DEBUG
     ca.uhn.fhir.rest.server.messaging: DEBUG
