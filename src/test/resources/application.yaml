@@ -238,3 +238,9 @@ hapi:
 #  protocol: 'http'
 #  schema_management_strategy: CREATE
 #  username: SomeUsername
+logging:
+  level:
+    ca.uhn.fhir.jpa.subscription: DEBUG
+    ca.uhn.fhir.subscription: DEBUG
+    ca.uhn.fhir.rest.server.messaging: DEBUG
+    ca.uhn.fhir.jpa.searchparam.matcher: DEBUG
